@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #6c757d;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2666,14 +2666,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #0BCEAF;
-  border-color: #0BCEAF;
+  color: #2a2a2a;
+  border-color: #1e1e2f;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #0BCEAF;
-  border-color: #0BCEAF;
+  background-color: #1e1e2f;
+  border-color: #1e1e2f;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0BCEAF !important;
+  background-color: #1e1e1e !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9525,7 +9525,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #0BCEAF !important;
+  color: #1e1e2f !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9982,3 +9982,48 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+/* ===== Professional Light Theme ===== */
+
+/* Body background */
+body {
+  background-color: #f8f9fa; /* soft light gray */
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Hero/Header section */
+#home {
+  background: linear-gradient(135deg, #007bff, #0056b3); /* blue gradient */
+  color: #fff;
+}
+
+/* Section backgrounds alternate */
+section {
+  padding: 60px 0;
+}
+
+section:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+section:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+/* Headings */
+h1, h3, h5, h6 {
+  color: #222;
+}
+
+/* Progress bars (skills section) */
+.progress-bar {
+  background: #007bff !important; /* professional blue */
+}
+
+
