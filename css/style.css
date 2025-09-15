@@ -10026,4 +10026,21 @@ h1, h3, h5, h6 {
   background: #007bff !important; /* professional blue */
 }
 
+/* Project Section */
+.project-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+
 
